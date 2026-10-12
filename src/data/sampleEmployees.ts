@@ -1,0 +1,66 @@
+import type { Employee } from '../types';
+
+// Seed data used on first launch (when storage is empty).
+// Once stored, the user's edits/adds/deletes replace this baseline.
+export const sampleEmployees: Employee[] = [
+  {
+    id: '1',
+    name: 'Rohan Akode',
+    email: 'rohan.akode@company.com',
+    phone: '9876543210',
+    position: 'Software Engineer',
+    department: 'Engineering',
+    status: 'Active',
+    createdAt: '2026-10-12T09:00:00Z',
+  },
+  {
+    id: '2',
+    name: 'Ananya Iyer',
+    email: 'ananya.iyer@company.com',
+    phone: '9123456780',
+    position: 'Product Designer',
+    department: 'Marketing',
+    status: 'Active',
+    createdAt: '2026-10-11T09:00:00Z',
+  },
+  {
+    id: '3',
+    name: 'Karthik Reddy',
+    email: 'karthik.r@company.com',
+    phone: '9988776655',
+    position: 'Senior Developer',
+    department: 'Engineering',
+    status: 'Active',
+    createdAt: '2026-10-10T09:00:00Z',
+  },
+  {
+    id: '4',
+    name: 'Meera Joshi',
+    email: 'meera.joshi@company.com',
+    phone: '9112233445',
+    position: 'HR Business Partner',
+    department: 'HR',
+    status: 'Active',
+    createdAt: '2026-10-09T09:00:00Z',
+  },
+  {
+    id: '5',
+    name: 'Dhruv Malhotra',
+    email: 'dhruv.m@company.com',
+    phone: '9001112233',
+    position: 'Account Executive',
+    department: 'Sales',
+    status: 'Active',
+    createdAt: '2026-10-08T09:00:00Z',
+  },
+  {
+    id: '6',
+    name: 'Sneha Pillai',
+    email: 'sneha.pillai@company.com',
+    phone: '9887776543',
+    position: 'Finance Lead',
+    department: 'Finance',
+    status: 'Inactive',
+    createdAt: '2026-10-07T09:00:00Z',
+  },
+];
